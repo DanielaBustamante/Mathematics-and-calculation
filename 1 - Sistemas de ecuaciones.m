@@ -1,8 +1,3 @@
-%MATEMATICA II
-%TRABAJO PRACTICO MATLAB
-%NOMBRE Y APELLIDO: Emily Orellana
-%DNI: 
-
 clear clc 
 syms x y z
 disp('MATEMATICA II')
@@ -40,7 +35,7 @@ X=rref([A,B])
 disp('Ejemplo 2 Dado el siguiente sistema de ecuaciones')
 disp('3x+2y-2z=4; 4x+y-z=7; x+4y-4z=-2')
 
-disp('a)Lo clasificamos con Rouché-Froubenius')
+disp('a)Lo clasificamos con RouchÃ©-Froubenius')
 %Armamos la matriz de los coeficientes
 C=[3,2,-2;4,1,-1;1,4,-4]
 %Armamos el vector
@@ -60,4 +55,3 @@ disp('b)Verificamos el item anterior mediante Gauss-Jordan')
 X=rref([Am2])
 disp('Podemos ver como toda una fila se hace se hace 0')
 disp('Se verifica que es un SCI')
-
